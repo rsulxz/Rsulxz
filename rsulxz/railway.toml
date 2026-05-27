@@ -1,0 +1,6 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python rsulxz/bot.py"
+restartPolicyType = "ON_FAILURE"
